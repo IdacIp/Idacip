@@ -1,0 +1,69 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 400" width="100%" height="100%">
+  <style>
+    /* 模擬 GitHub 暗黑模式背景 */
+    .bg { fill: #0d1117; }
+    
+    /* 核心粒子基礎樣式 */
+    .p {
+      fill: #ff79c6; /* 霓虹粉色 */
+      opacity: 0;
+      transform-origin: center;
+      animation: gather 2.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    }
+    
+    /* 淡紫色粒子變體 */
+    .p-alt { fill: #bd93f9; }
+
+    /* 定義向內匯聚的動畫 */
+    @keyframes gather {
+      0% {
+        opacity: 0;
+        /* 初始狀態：隨機散落在四周邊緣（由各粒子 inline style 控制） */
+      }
+      20% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+        transform: translate(0, 0); /* 最終精確回到定義的中心座標 */
+      }
+    }
+  </style>
+
+  <!-- 背景 -->
+  <rect class="bg" width="800" height="400" />
+
+  <!-- 粒子矩陣（組成 あいして 字樣） -->
+  <!-- 每個粒子的 transform 決定它從哪個外圍方向飛入，animation-delay 模擬 GSAP 的 stagger 效果 -->
+  <g id="particle-group">
+    <!-- 「あ」字群 -->
+    <circle class="p" cx="210" cy="160" r="2.5" style="transform: translate(-300px, -200px); animation-delay: 0.1s;" />
+    <circle class="p p-alt" cx="230" cy="150" r="3" style="transform: translate(-400px, 50px); animation-delay: 0.4s;" />
+    <circle class="p" cx="220" cy="180" r="2" style="transform: translate(-200px, 300px); animation-delay: 0.2s;" />
+    <circle class="p" cx="240" cy="210" r="2.5" style="transform: translate(-100px, -400px); animation-delay: 0.6s;" />
+    <circle class="p p-alt" cx="250" cy="240" r="2" style="transform: translate(-350px, -150px); animation-delay: 0.3s;" />
+    <circle class="p" cx="210" cy="230" r="3" style="transform: translate(-450px, 200px); animation-delay: 0.5s;" />
+
+    <!-- 「い」字群 -->
+    <circle class="p" cx="340" cy="160" r="2" style="transform: translate(50px, -350px); animation-delay: 0.15s;" />
+    <circle class="p p-alt" cx="330" cy="200" r="2.5" style="transform: translate(-50px, 400px); animation-delay: 0.45s;" />
+    <circle class="p" cx="340" cy="240" r="3" style="transform: translate(-300px, 250px); animation-delay: 0.25s;" />
+    <circle class="p" cx="390" cy="170" r="2" style="transform: translate(400px, -200px); animation-delay: 0.35s;" />
+    <circle class="p p-alt" cx="400" cy="220" r="2.5" style="transform: translate(350px, 300px); animation-delay: 0.55s;" />
+
+    <!-- 「し」字群 -->
+    <circle class="p" cx="470" cy="150" r="2.5" style="transform: translate(150px, -400px); animation-delay: 0.2s;" />
+    <circle class="p" cx="475" cy="190" r="2" style="transform: translate(-250px, -300px); animation-delay: 0.5s;" />
+    <circle class="p p-alt" cx="480" cy="230" r="3" style="transform: translate(-150px, 350px); animation-delay: 0.1s;" />
+    <circle class="p" cx="500" cy="250" r="2" style="transform: translate(200px, 400px); animation-delay: 0.6s;" />
+    <circle class="p p-alt" cx="530" cy="230" r="2.5" style="transform: translate(450px, 150px); animation-delay: 0.3s;" />
+
+    <!-- 「て」字群 -->
+    <circle class="p" cx="600" cy="160" r="3" style="transform: translate(300px, -300px); animation-delay: 0.12s;" />
+    <circle class="p p-alt" cx="640" cy="165" r="2" style="transform: translate(400px, -100px); animation-delay: 0.42s;" />
+    <circle class="p" cx="620" cy="190" r="2.5" style="transform: translate(-100px, -350px); animation-delay: 0.22s;" />
+    <circle class="p" cx="600" cy="220" r="3" style="transform: translate(-200px, 200px); animation-delay: 0.52s;" />
+    <circle class="p p-alt" cx="615" cy="250" r="2" style="transform: translate(100px, 400px); animation-delay: 0.32s;" />
+    <circle class="p" cx="640" cy="240" r="2.5" style="transform: translate(350px, 300px); animation-delay: 0.62s;" />
+  </g>
+</svg>
