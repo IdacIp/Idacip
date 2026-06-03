@@ -15,7 +15,3 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/IdacIp/Idacip/refs/heads/main/particles.svg" alt="あいして 粒子動畫" width="100%" />
-</p>
-
