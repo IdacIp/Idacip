@@ -1,17 +1,15 @@
-## Hi there 👋
+<img src="banner-1.png" width="100%" style="display: block;" />
 
-<!--
-**IdacIp/Idacip** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+# ＰＲＯＦＩＬＥ
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+$$\color{#ff2d5e}{███}\color{#ff8c1a}{███}\color{#ffd400}{███}\color{#00c97a}{███}\color{#02c2c2}{███}\color{#1a7bff}{███}\color{#7d42ff}{███}$$
 
+### Ida Carlo Ip
+
+### A11y Developer
+
+</div>
+
+<img src="banner-2.png" width="100%" style="display: block;" />
