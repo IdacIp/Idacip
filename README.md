@@ -12,7 +12,7 @@ $$\color{#ff2d5e}{███}\color{#ff8c1a}{███}\color{#ffd400}{███}
 
 Developing with: 
 
-[![Icoziv-icons](https://i.icoziv.workers.dev/icons?i=flutterflow,swift,swiftui)](https://i.icoziv.workers.dev)
+[![Icoziv-icons](https://i.icoziv.workers.dev/icons?i=anaconda-dark,astro-dark,nuxtjs-dark,swiftui)](https://i.icoziv.workers.dev)
 
 </div>
 
